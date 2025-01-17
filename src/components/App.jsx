@@ -5,8 +5,10 @@ import Projects from './Projects'
 
 function App() {
   return (<div>
-    <Header/> 
+    <Header/>
+    <div className='fullbody'> 
     <Projects/>
+    </div>
     <Footer/>
     </div>)
 }

@@ -1,19 +1,22 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-function CardP() {
+
+function CardP(props) {
   return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+        <div className="cardproject"> 
+      <Card style={{ width: '100%' }}>
+      <Card.Img variant="top" src={props.image} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        <Card.Title>{props.name}</Card.Title>
+        <Card.Text>{props.description}
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary">{props.link}</Button>
       </Card.Body>
-    </Card>
+      </Card>
+        </div>
+
+      
   );
 }
 

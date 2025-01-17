@@ -1,6 +1,9 @@
 #root {
   color: #ECDFCC !important;
 }
+.fullbody {
+  margin: 40px;
+}
 
 body{
   background-color: gray !important;
@@ -12,10 +15,9 @@ body{
   font-size: 20px;
 }
 
-.cardproject{
-  justify-content: space-evenly;
-  display: flex;
-  flex-direction: row;
+.cardproject{ 
+  margin: 10px;
+  text-align: center;
 }
 
 .navbar{
@@ -30,3 +32,6 @@ body{
   color: #ECDFCC !important;
 }
 
+.heading {
+  text-align: center;
+}
