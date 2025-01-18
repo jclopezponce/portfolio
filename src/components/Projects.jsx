@@ -1,6 +1,6 @@
 import React from "react";
 import CardP from "./Card";
-import projects from "../index";
+import projects from "../projects";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
