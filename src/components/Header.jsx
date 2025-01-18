@@ -5,7 +5,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function Header() {
   return (<div>
-    <Navbar collapseOnSelect expand="lg" className="navbar">
+    <Navbar collapseOnSelect expand="lg" className="navbar navbar-expand-lg navbar-dark shadow-5-strong">
       <Container>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse className= "navItems" id="responsive-navbar-nav">

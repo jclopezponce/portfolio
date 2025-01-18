@@ -1,13 +1,15 @@
-#root {
+#root .footertxt {
   color: #ECDFCC !important;
 }
 .fullbody {
-  margin: 40px;
+  margin: 0 40px 0 40px;
 }
 
 body{
-  background-color: gray !important;
-}
+  background-color: black!important;
+
+} 
+
 
 .navItems {
   display: block;
@@ -18,11 +20,10 @@ body{
 .cardproject{ 
   margin: 10px;
   text-align: center;
+  border: none;
 }
 
-.navbar{
-  background-color: #09122C !important;
-}
+
 .items > a {
   color : #ECDFCC
 }
@@ -34,4 +35,5 @@ body{
 
 .heading {
   text-align: center;
+  color: #ECDFCC !important;
 }

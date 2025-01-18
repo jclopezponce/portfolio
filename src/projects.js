@@ -1,28 +1,28 @@
 
 const projects = [{
-    name : "project1",
-    description :"lorefwewe",
+    name : "Grid",
+    description :"Litle description of the project",
     link : "likfe",
     image : "img/test-img.jpg"
 
   }, {
-    name : "project2",
-    description :"este es tu projecto",
+    name : "Calculator",
+    description :"Litle description of the project",
     link : "likfe",
     image : "img/test-img.jpg"
   }, {
-    name : "project3",
-    description :"otro proy",
+    name : "C.R.U.D",
+    description :"Litle description of the project",
     link : "likfe",
     image : "img/test-img.jpg"
   }, {
-    name : "project3",
-    description :"otro proy",
+    name : "Social Media",
+    description :"Litle description of the project",
     link : "likfe",
     image : "img/test-img.jpg"
   }, {
-    name : "project3",
-    description :"otro proy",
+    name : "Othe App",
+    description :"Litle description of the project",
     link : "likfe",
     image : "img/test-img.jpg"
   }];
